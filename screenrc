@@ -1,0 +1,29 @@
+#Barra de Status
+hardstatus alwayslastline
+hardstatus string '%{= kG}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B} %Y-%m-%d %{W}%c:%s %{g}]'
+
+#Remove o bind de freeze da tela
+bind s
+
+#Não pisca quando o tab-completion não dá certo
+vbell off
+
+#Shells
+screen -t shell1
+screen -t shell2
+screen -t shell3
+
+#BD
+screen -t banco
+
+#Banco Root
+screen -t cbda
+
+#Syslog
+screen -t syslog
+stuff "tail -f /var/log/messages | ccze -A \015"
+
+#Oracle
+screen -t oracle
+
+select 0
