@@ -1,0 +1,28 @@
+<snippet>
+    <tabTrigger>gs</tabTrigger>
+    <content><![CDATA[
+/**
+ * Retorna ${1:descricao}
+ * @return ${2:tipo}
+ */
+public function get${3:metodo}()
+{
+    return \$this->${4:membro};
+}
+
+/**
+ * Define ${1:descricao}
+ * @var ${2:tipo} \$${5:var}
+ * @return ${6:classe}
+ */
+public function set${3:metodo}(\$${5:var})
+{
+    \$this->${4:membro} = \$${5:var};
+    return \$this;
+}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <!-- <tabTrigger>hello</tabTrigger> -->
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

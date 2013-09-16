@@ -1,0 +1,24 @@
+<snippet>
+    <tabTrigger>gsd</tabTrigger>
+    <content><![CDATA[
+/**
+ * Retorna ${1:descricao}
+ * @return ${2:tipo}
+ */
+public function get${3:metodo}()
+{
+    return \$this->_dados['${4:membro}'];
+}
+
+/**
+ * Define ${1:descricao}
+ * @var ${2:tipo} \$${5:var}
+ * @return ExcsDadoDocumentos
+ */
+public function set${3:metodo}(\$${5:var})
+{
+    \$this->_dados['${4:membro}'] = \$${5:var};
+    return \$this;
+}
+]]></content>
+</snippet>

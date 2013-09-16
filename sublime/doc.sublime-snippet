@@ -1,0 +1,17 @@
+<snippet>
+	<tabTrigger>doc</tabTrigger>
+	<content><![CDATA[
+/**
+ * MT4 Tecnologia
+ * @copyright 2013 - MT4 Tecnologia
+ * @author Felipe Weckx <fweckx@mt4.com.br>
+ * @category MT4
+ * @package ${1:package}
+ */
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

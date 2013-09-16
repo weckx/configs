@@ -1,0 +1,22 @@
+{
+	"color_scheme": "Packages/Color Scheme - Default/LAZY.tmTheme",
+	"default_encoding": "Western (ISO 8859-1)",
+	"ensure_newline_at_eof_on_save": true,
+	"font_face": "Consolas",
+	"font_size": 16,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"PHP Companion",
+		"Vintage",
+		"Theme - Soda"
+	],
+	"rulers":
+	[
+		80,
+		120
+	],
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"word_separators": ".\\()\"'-:,.;<>~!@#%^&*|+=[]{}`~?"
+}

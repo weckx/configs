@@ -1,0 +1,7 @@
+{
+	"phpcs_additional_args": {
+        "--standard": "ZEND",
+        "-n": ""
+    },
+    "phpmd_run": true
+}

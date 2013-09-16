@@ -1,0 +1,17 @@
+<snippet>
+    <tabTrigger>g</tabTrigger>
+    <content><![CDATA[
+/**
+ * Retorna ${1:descricao}
+ * @return ${2:tipo}
+ */
+public function get${3:metodo}()
+{
+    return ${4:membro};
+}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <!-- <tabTrigger>hello</tabTrigger> -->
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

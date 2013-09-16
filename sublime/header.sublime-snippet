@@ -1,0 +1,15 @@
+<snippet>
+    <tabTrigger>header</tabTrigger>
+    <content><![CDATA[
+\$private_folder = private_folder(\$_SERVER['SCRIPT_FILENAME']);
+\$public_folder = public_folder(\$_SERVER['SCRIPT_FILENAME']);
+
+require_once 'includes/header.php';
+
+
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <!-- <tabTrigger>hello</tabTrigger> -->
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>
