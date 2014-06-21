@@ -1,0 +1,7 @@
+[user]
+	email = felipe@weckx.net
+	name = Felipe Weckx
+	signingkey = 72FAA84E
+[push]
+	default = simple
+
