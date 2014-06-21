@@ -14,3 +14,6 @@ export GPG_TTY=`tty`
 
 # Aliases
 source ~/.bash_alias
+
+# To prevent the use o gnome-seahorse for passwords
+export GIT_ASKPASS=''

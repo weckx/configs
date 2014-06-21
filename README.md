@@ -1,4 +1,6 @@
 configs
 =======
 
-general configuration files
+Configurações padrão. Instalar com:
+
+make
