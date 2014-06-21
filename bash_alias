@@ -1,0 +1,16 @@
+# Command aliases
+alias ls='ls --color=auto'
+alias ssh9='luit -encoding ISO-8859-1 ssh'
+alias diff='colordiff' 
+alias grep='grep --color=auto'
+alias more='less'
+alias df='df -h'
+alias du='du -c -h'
+alias mkdir='mkdir -p -v'
+alias nano='nano -w'
+alias ping='ping -c 5'
+alias dmesg='dmesg -HL'
+
+# Pacman aliases
+alias pac='sudo pacman'
+alias pacup='sudo pacman -Syu'
